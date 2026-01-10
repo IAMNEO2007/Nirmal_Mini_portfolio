@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Nirmal — Minifolio</title>
+  <meta name="description" content="Nirmal — Full‑stack & AI website builder. Mini portfolio." />
+  <link rel="icon" href="data:;base64,iVBORw0KGgo=" />
+  <link rel="stylesheet" href="styles.css" />
+  <meta name="theme-color" content="#1f6feb">
+  <!-- Open Graph (replace image when you add one) -->
+  <meta property="og:title" content="Nirmal — Mini Portfolio" />
+  <meta property="og:description" content="I build accessible websites, full‑stack apps and AI-powered sites." />
+  <meta property="og:image" content="assets/og-image.png" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="wrap">
+      <a class="logo" href="#">Nirmal</a>
+      <nav class="nav" id="main-nav">
+        <a href="#projects">Work</a>
+        <a href="#skills">Skills</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button id="menu-btn" class="menu-btn" aria-label="Open navigation">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero wrap">
+      <div class="hero-left">
+        <h1>Hello — I’m Nirmal</h1>
+        <p class="lead">Full‑stack developer & AI site builder. I make fast, accessible websites and integrate AI to automate content, personalize UX, and build intelligent web apps.</p>
+        <p class="actions">
+          <a class="btn primary" href="#projects">See my work</a>
+          <a class="btn ghost" href="#contact">Contact</a>
+        </p>
+        <p class="muted small">Available for freelance & remote work • <a href="#" id="resume-link">Download resume</a></p>
+      </div>
+      <div class="hero-right">
+        <div class="card profile">
+          <div class="avatar">N</div>
+          <h2>Nirmal</h2>
+          <p class="muted">Full‑stack & AI Website Builder</p>
+          <div class="socials">
+            <a href="https://github.com/Nirmal-0007" target="_blank" rel="noopener">GitHub</a>
+            <a href="#" target="_blank" rel="noopener">LinkedIn</a>
+            <a href="#" target="_blank" rel="noopener">Portfolio</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="wrap projects">
+      <h3>Selected projects</h3>
+      <p class="muted">Examples — replace images and links with your real projects.</p>
+
+      <div class="grid">
+        <article class="project">
+          <img src="assets/project-ai-builder.png" alt="AI Website Builder screenshot" onerror="this.style.opacity=.6" />
+          <div class="p-body">
+            <h4>AI Website Builder</h4>
+            <p class="muted">A web app that generates landing pages from prompts. Integrates LLMs for copy + automated design and static export. Tech: Node, Express, OpenAI API, Tailwind.</p>
+            <p class="links"><a href="#" target="_blank" rel="noopener">Live</a> <a href="#" target="_blank" rel="noopener">Code</a></p>
+          </div>
+        </article>
+
+        <article class="project">
+          <img src="assets/project-portfolio.png" alt="Personal portfolio screenshot" onerror="this.style.opacity=.6" />
+          <div class="p-body">
+            <h4>Portfolio (This Site)</h4>
+            <p class="muted">A lightweight, accessible portfolio template. Focus on speed, SEO and responsive design.</p>
+            <p class="links"><a href="#" target="_blank" rel="noopener">Live</a> <a href="#" target="_blank" rel="noopener">Code</a></p>
+          </div>
+        </article>
+
+        <article class="project">
+          <img src="assets/project-fullstack.png" alt="Fullstack app screenshot" onerror="this.style.opacity=.6" />
+          <div class="p-body">
+            <h4>Task Manager (Full‑stack)</h4>
+            <p class="muted">Full‑stack CRUD app with realtime updates, auth, and deployment. Tech: React, Node, PostgreSQL, Vercel.</p>
+            <p class="links"><a href="#" target="_blank" rel="noopener">Live</a> <a href="#" target="_blank" rel="noopener">Code</a></p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills" class="wrap skills">
+      <h3>Skills</h3>
+      <p class="muted">What I work with and the AI capabilities I add to websites.</p>
+      <ul class="skill-list">
+        <li>
+          <strong>Frontend:</strong> HTML, CSS, JavaScript, React, Vue
+        </li>
+        <li>
+          <strong>Backend:</strong> Node.js, Express, Python, REST, GraphQL, SQL
+        </li>
+        <li>
+          <strong>Deployment / Infra:</strong> Vercel, Netlify, Docker, CI/CD
+        </li>
+        <li>
+          <strong>AI & Automation:</strong> LLM integrations (OpenAI), generative content, AI‑driven layout suggestions, personalization, prompt engineering, chatbots, automated image generation
+        </li>
+        <li>
+          <strong>Design & UX:</strong> Responsive design, accessibility (a11y), performance optimization
+        </li>
+      </ul>
+
+      <div class="ai-highlights">
+        <h4>AI website features I build</h4>
+        <ul class="ai-list">
+          <li>Auto-generate landing copy & metadata from a single prompt</li>
+          <li>Personalized content for visitors using simple profiling</li>
+          <li>Chat assistant / support bot embedded on sites</li>
+          <li>Image generation for hero sections and social cards</li>
+          <li>Export static site ready for hosting (Netlify/Vercel)</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="about" class="wrap about">
+      <h3>About me</h3>
+      <p>I’m a developer who enjoys building simple, maintainable frontends and reliable backends — now adding AI to make websites smarter and more useful. I balance UX, performance and pragmatic engineering so products ship quickly and sustainably.</p>
+      <p class="muted">Currently focused on: AI-powered site generators, full‑stack projects, and accessible design.</p>
+    </section>
+
+    <section id="contact" class="wrap contact">
+      <h3>Contact</h3>
+      <p>If you want an AI-enhanced website, a full‑stack project, or a quick consultation — email me at <a href="mailto:your-email@example.com">your-email@example.com</a> or use the form below.</p>
+
+      <form id="contact-form" class="contact-form">
+        <div class="row">
+          <label for="name">Name</label>
+          <input id="name" name="name" required />
+        </div>
+        <div class="row">
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" required />
+        </div>
+        <div class="row">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+        <div class="row">
+          <button type="submit" class="btn primary">Send message</button>
+          <p id="form-msg" class="muted small"></p>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap">
+      <p class="muted">© <span id="year"></span> Nirmal • <a href="https://github.com/Nirmal-0007" target="_blank" rel="noopener">GitHub</a> • Built with AI features</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
